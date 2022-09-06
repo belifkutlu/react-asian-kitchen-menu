@@ -1,0 +1,15 @@
+.buttons button {
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(255, 187, 108);
+  color: brown;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #ffdb67 !important;
+}

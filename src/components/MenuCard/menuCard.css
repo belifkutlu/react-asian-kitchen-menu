@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  width: 44%;
+  padding: 15px;
+  border: 1px solid brown;
+  border-radius: 5px;
+  margin: 10px 10px;
+}
+
+.picture {
+  margin-right: 15px;
+}
+.picture img {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.content h4 {
+  display: inline-block;
+  color: brown;
+  font-size: 18px;
+}
+
+.content {
+  width: 100%;
+}
+
+.content p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: rgb(77, 77, 77);
+}
+
+.title-price {
+  display: flex;
+  justify-content: space-between;
+}
+.title-price span {
+  font-weight: 600;
+  color: brown;
+  font-size: 18px;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  background: rgb(255, 255, 255);
+}
